@@ -99,7 +99,7 @@ def print_trip_log(fuel_price: float, customer: Customer, shops: list) -> None:
         generate_receipt(customer.cart, closest_shop.products)
         print(
             f"Total cost is "
-            f"{shops_trip_cost[closest_shop]["products_cost"]} dollars"
+            f"{shops_trip_cost[closest_shop]['products_cost']} dollars"
         )
 
         customer.money -= total_spending
