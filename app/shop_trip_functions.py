@@ -103,7 +103,7 @@ def print_trip_log(fuel_price: float, customer: Customer, shops: list) -> None:
 
         # setting date manually since test checks for const str
         date = datetime.strptime("04/01/2021 12:33:41", "%d/%m/%Y %H:%M:%S")
-        print(f"Date: {datetime.strftime(date, "%d/%m/%Y %H:%M:%S")}")
+        print(f"Date: {datetime.strftime(date, '%d/%m/%Y %H:%M:%S')}")
 
         print(f"Thanks, {customer.name}, for your purchase!")
         print("You have bought:")
