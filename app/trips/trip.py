@@ -24,7 +24,7 @@ class Trip:
 
             print(
                 f"{self.customer.name}'s trip to the "
-                f"{shop.name} costs {self.cost[shop]["total"]}"
+                f"{shop.name} costs {self.cost[shop]['total']}"
             )
 
         closest_shop = self.find_closest_shop()
